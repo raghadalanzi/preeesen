@@ -1,0 +1,108 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+
+header {
+    background-color: #101038;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: #f4f4f4; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    padding: 2em;
+    background-color: #fff;
+    margin: 2em auto;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+section#content h2 {
+    color: #0056b3; 
+    font-size: 1.8em;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 0.5em;
+}
+
+section#content h3 {
+    color: #007bff; 
+    font-size: 1.5em;
+    margin-top: 1em;
+    border-bottom: 1px solid #007bff;
+    padding-bottom: 0.3em;
+}
+
+section#content p {
+    line-height: 1.6;
+    margin: 1em 0;
+}
+
+
+section#content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1em 0;
+}
+
+
+ul.feature-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.feature-list li {
+    background-color: #f9f9f9;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border-left: 4px solid #333;
+}
+
+ul.team-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul.team-list li {
+    background-color: #e9ecef;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border-left: 4px solid #007bff; 
+    font-size: 1.2em;
+}
